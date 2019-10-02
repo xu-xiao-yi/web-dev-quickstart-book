@@ -6,12 +6,12 @@
     <style type="text/css">
         @font-face {
             font-family: 'iconfont';  /* project id 1432431 */
-            src: url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.eot');
-            src: url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.eot?#iefix') format('embedded-opentype'),
-            url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.woff2') format('woff2'),
-            url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.woff') format('woff'),
-            url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.ttf') format('truetype'),
-            url('//at.alicdn.com/t/font_1432431_3quydmfa1oc.svg#iconfont') format('svg');
+            src: url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.eot');
+            src: url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.woff2') format('woff2'),
+            url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.woff') format('woff'),
+            url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_1432431_ylnx0joq5z.svg#iconfont') format('svg');
         }
         .iconfont{
             font-family:"iconfont" !important;
@@ -58,10 +58,19 @@
         .nav li a:hover{
             color: #FFFFFF;
         }
+        .hyperlink{
+            flex: 0 0 50px;
+            list-style: none;
+            display: flex;
+
+        }
         .hyperlink li{
             margin-right: 10px;
             margin-left: 10px;
             width: 50px;
+        }
+        .user-info {
+            padding-right: 10px;
         }
         .hyperlink li a:hover{
             color: #FFFFFF;
@@ -187,8 +196,10 @@
     <div>
             <ul class="hyperlink">
                 <li>
-                    <a href="login.html">登录</a>
-                    <i class="iconfont">&#xe77f;</i>
+                    <a href="login.html"><i class="iconfont">&#xe77f;</i>登录</a>
+                </li>
+                <li>
+                    <a href="register.html"><i class="iconfont">&#xe635;</i>注册</a>
                 </li>
             </ul>
     </div>
